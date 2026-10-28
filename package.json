@@ -1,0 +1,17 @@
+{
+  "name": "session-studio-group-4-submission",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "setup:codex": "node scripts/install-codex.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "start:local": "node scripts/start-local.mjs",
+    "typecheck": "node scripts/check.mjs typecheck",
+    "test": "node --test tests/setup.test.mjs && node scripts/check.mjs test",
+    "build": "node scripts/check.mjs build",
+    "test:workspace": "node scripts/workspace-check.mjs"
+  }
+}

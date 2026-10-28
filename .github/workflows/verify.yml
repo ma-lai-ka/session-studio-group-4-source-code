@@ -1,0 +1,37 @@
+name: Clean local installation
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    name: ${{ matrix.os }} / Node 22 / Python 3.12
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install from clean checkout
+        run: npm run setup
+      - name: Add persistence sentinel
+        run: node scripts/persistence-check.mjs write
+      - name: Repeat setup without erasing local data
+        run: npm run setup
+      - name: Check persistence and source rendering
+        run: node scripts/persistence-check.mjs verify
+      - run: npm run doctor -- --offline
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      - run: npm run test:workspace

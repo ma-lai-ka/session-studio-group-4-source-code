@@ -1,0 +1,5 @@
+interface:
+  display_name: "Lead Creative Session Facilitator"
+  short_description: "Referenced models, methods, and realistic session plans"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+{
+  "project": "Session Studio",
+  "course": "IDEM307 Generative AI and Design",
+  "group": 4,
+  "sourceRepository": "https://github.com/esmayyork/gen-ai-course",
+  "sourceBranch": "integration-branch",
+  "sourceCommit": "65d7bfa15a9ac97c764eb5bda4a1f6fa1b609b44",
+  "destinationRepository": "https://github.com/ma-lai-ka/session-studio-group-4-source-code",
+  "packaged": "2026-10-28",
+  "referenceCodexVersion": "0.165.0-alpha.1.2",
+  "billing": "ChatGPT subscription only; no API key fallback",
+  "scope": "Source snapshot plus portable local setup, documentation and verification. No deployment."
+}

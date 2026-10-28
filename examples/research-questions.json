@@ -1,0 +1,148 @@
+{
+  "format": "session-studio-project",
+  "version": 2,
+  "project": {
+    "workspace": null,
+    "workspaceCopyFrom": null,
+    "name": "Example project — library study-space onboarding",
+    "description": "Fictional evaluation fixture; no personal research or live AI output.",
+    "completedWork": "",
+    "desiredOutcome": "",
+    "demo": false,
+    "sessions": [
+      {
+        "preliminary": true,
+        "id": "526e3078-8d5c-416a-9ae3-8a3c252fabe4",
+        "title": "Session 1",
+        "purpose": "Awaiting tailored plan",
+        "expectedOutputs": "",
+        "dependsOn": [],
+        "intake": {
+          "name": "Example project — library study-space onboarding",
+          "description": "Fictional evaluation fixture; no personal research or live AI output.",
+          "phase": "define",
+          "goal": "frame",
+          "minutes": 90,
+          "participants": 4,
+          "level": "bachelor"
+        },
+        "plan": {
+          "id": "2956e060-4cb0-4197-844a-f773f394f517",
+          "version": 1,
+          "intake": {
+            "name": "Example project — library study-space onboarding",
+            "description": "Fictional evaluation fixture; no personal research or live AI output.",
+            "phase": "define",
+            "goal": "frame",
+            "minutes": 90,
+            "participants": 4,
+            "level": "bachelor"
+          },
+          "activities": [
+            {
+              "instanceId": "19276ac7-719b-4102-9bfb-6737c0437e02",
+              "methodId": "intro",
+              "name": "Introduction",
+              "category": "organisation",
+              "takeaway": "Agree on the session goal, required output and working agreements.",
+              "input": "",
+              "materials": "",
+              "source": "Session Studio · facilitator organisation suggestion",
+              "defaultMinutes": 5,
+              "minParticipants": 1,
+              "maxParticipants": null,
+              "operational": true,
+              "steps": [
+                {
+                  "title": "Introduction",
+                  "summary": "Agree on the session goal, required output and working agreements.",
+                  "detail": "This is original session organisation guidance, not a recovered book method. Adjust it for your group.",
+                  "minutes": 5
+                }
+              ]
+            },
+            {
+              "instanceId": "cb54487f-3be8-47c5-8ffe-215937b8a1e9",
+              "methodId": "closing",
+              "name": "Closing",
+              "category": "organisation",
+              "takeaway": "Agree on next steps, responsibilities and where to keep outputs.",
+              "input": "",
+              "materials": "",
+              "source": "Session Studio · facilitator organisation suggestion",
+              "defaultMinutes": 5,
+              "minParticipants": 1,
+              "maxParticipants": null,
+              "operational": true,
+              "steps": [
+                {
+                  "title": "Wrap-up and closing",
+                  "summary": "Agree on next steps, responsibilities and where to keep outputs.",
+                  "detail": "This is original session organisation guidance, not a recovered book method. Adjust it for your group.",
+                  "minutes": 5
+                }
+              ]
+            }
+          ],
+          "demo": false,
+          "generatedAt": "2026-10-28T22:55:51.522Z",
+          "acceptedWarnings": []
+        },
+        "status": "draft",
+        "phaseCycleId": "problem",
+        "completion": null
+      }
+    ],
+    "uncovered": [],
+    "goals": [
+      {
+        "designBrief": {
+          "endpoint": "Frame actionable design questions from existing interview notes",
+          "evidence": "Six fictional interview summaries, supplied by the evaluator",
+          "team": "Four bachelor design students",
+          "access": "Existing notes only; no new participant access",
+          "timeBudget": "One 90-minute meeting with four attendees. Any additional preparation/analysis budget must be clarified.",
+          "constraints": "No new recruitment or fieldwork",
+          "weeklyPersonHours": [],
+          "assumptions": [],
+          "confirmed": false
+        },
+        "id": "5d6116e1-70c8-4293-a80b-3fc7b01307a1",
+        "title": "Frame actionable design questions from existing interview notes",
+        "diamonds": [
+          {
+            "id": "problem",
+            "phases": [
+              "define"
+            ]
+          }
+        ],
+        "sessionIds": [
+          "526e3078-8d5c-416a-9ae3-8a3c252fabe4"
+        ],
+        "initialSessionCount": 1,
+        "weeks": 1,
+        "sessionsPerWeek": 1,
+        "setup": {
+          "goal": "Frame actionable design questions from existing interview notes",
+          "diamonds": [
+            {
+              "id": "problem",
+              "phases": [
+                "define"
+              ]
+            }
+          ],
+          "participants": 4,
+          "level": "bachelor",
+          "hours": 1.5,
+          "timeMode": "total",
+          "weeks": 1,
+          "sessionsPerWeek": 1,
+          "sessionCount": 1,
+          "countMode": "manual"
+        }
+      }
+    ]
+  }
+}
